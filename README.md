@@ -3,6 +3,8 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#)
 [![Version](https://img.shields.io/badge/Version-2.0.0-blue.svg)](#)
 
+**[킠усский](README.md) | [English](README_EN.md)**
+
 # 🔒 Sentinel Agent v2.0
 
 Локальный Zero‑Trust AI‑агент для автоматизации игр и задач с компьютерным зрением — безопасно, прозрачно и под полным контролем пользователя.
