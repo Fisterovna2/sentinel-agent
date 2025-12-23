@@ -1,0 +1,25 @@
+{
+  "name": "sentinel-agent",
+  "version": "2.0.0",
+  "description": "Zero-Trust AI Agent with Game Automation & Computer Vision",
+  "main": "agent-server-v2.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent-server-v2.js",
+    "dev": "node agent-server-v2.js",
+    "test": "echo 'Tests pending'"
+  },
+  "keywords": ["ai-agent", "zero-trust", "game-automation", "computer-vision", "security"],
+  "author": "Fisterovna2",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.0",
+    "fs-extra": "^11.1.1",
+    "@google/generative-ai": "^0.3.1",
+    "joi": "^17.11.0",
+    "opencv4nodejs": "^6.1.0"
+  }
+}
