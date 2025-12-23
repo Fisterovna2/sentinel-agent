@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*.npm
+*.yarn
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime
+sandbox/
+!sandbox/.gitkeep
+sandbox/audit.log
+sandbox/security.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.exe
+
+# Sensitive
+*.key
+*.pem
+replays/
