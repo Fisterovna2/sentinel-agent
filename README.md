@@ -106,20 +106,6 @@ Executor Worker (Изолированный исполнитель)
 
 ---
 
-## 🎮 Примеры использования
-
-### Dota 2 - Автофарм
-```bash
-POST /api/execute
-{
-  "step": {
-    "desc": "Farm jungle neutral camp for 5 minutes",
-    "risk": 4,
-    "command": "dota.farm(x=1000, y=1000, duration=300)"
-  }
-}
-```
-
 ### Roblox - Автоматизация игры
 ```bash
 POST /api/execute
