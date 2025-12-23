@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node agent-server-v2.js",
     "dev": "node agent-server-v2.js",
-    "test": "echo 'Tests pending'"
+    "test": "echo \"Tests pending\""
   },
   "keywords": ["ai-agent", "zero-trust", "game-automation", "computer-vision", "security"],
   "author": "Fisterovna2",
@@ -18,7 +18,7 @@
     "screenshot-desktop": "^1.12.0",
     "fs-extra": "^11.1.1",
     "@google/generative-ai": "^0.3.1",
-    "joi": "^17.11.0",
-    "dotenv": "^16.4.7"}
-    }
+    "jwt": "^17.11.0",
+    "dotenv": "^16.4.7"
+  }
 }
